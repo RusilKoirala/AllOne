@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Unit Converter - ToolsHub</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="icon" href="/AllOne/public/assets/ToolsHub.png" type="image/png">
+</head>
+<body>
+  <!-- Navbar -->
+  <nav>
+    <div class="logo">
+      <a href="index.html">Tools<span>Hub</span></a>
+    </div>
+    <div class="nav-links">
+      <a href="index.html">Home</a>
+      <a href="tools.html">Tools</a>
+      <a href="about.html">About</a>
+      <a href="contact.html">Contact</a>
+    </div>
+  </nav>
+
+  <!-- Unit Converter Section -->
+  <section class="unit-converter">
+    <h1>Unit Converter</h1>
+    <div class="unit-converter-container">
+
+        <div class="select-section">
+          <label for="category">Category:</label>
+          <select id="category" onchange="updateUnits()">
+            <option value="length">Length</option>
+            <option value="temperature">Temperature</option>
+            <option value="weight">Weight</option>
+          </select>
+        </div>
+      
+        <div class="select-section">
+          <label for="fromUnit">From:</label>
+          <select id="fromUnit"></select>
+        </div>
+      
+        <div class="select-section">
+          <label for="toUnit">To:</label>
+          <select id="toUnit"></select>
+        </div>
+      
+        <div class="input-section">
+          <label for="value">Value:</label>
+          <input type="number" id="value" placeholder="Enter value" />
+        </div>
+      
+        <div class="result-section">
+          <button onclick="convert()">Convert</button>
+          <p id="result">Result:</p>
+        </div>
+      
+      </div>
+      
+  </section>
+
+  <footer>
+    <p>&copy; 2025 ToolsHub. All rights reserved.</p>
+  </footer>
+
+  <script src="js/unit-converter.js"></script>
+</body>
+</html>

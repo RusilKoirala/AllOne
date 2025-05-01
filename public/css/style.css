@@ -1,0 +1,668 @@
+/* General Reset */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+    font-family: 'poppins', sans-serif;
+    color: #333;
+    background-color: #f9f9f9;
+    line-height: 1.6;
+    padding: 0;
+}
+
+/* Navbar Styling */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #007BFF; /* Soft blue */
+    padding: 15px 30px;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+nav .logo a {
+    font-size: 24px;
+    font-weight: 600;
+    color: #fff;
+    text-decoration: none;
+}
+
+nav .logo span {
+    color: #FFD700; /* Gold accent for style */
+}
+
+nav .nav-links a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 18px;
+    transition: all 0.3s ease;
+}
+
+nav .nav-links a:hover {
+    background-color: #0056b3;
+    border-radius: 5px;
+    padding: 8px 16px;
+}
+
+/* Hero Section */
+.hero {
+    background-color: #007BFF;
+    color: #fff;
+    padding: 100px 20px;
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.hero p {
+    font-size: 18px;
+    margin-top: 20px;
+    font-weight: 100;
+}
+
+.hero .btn-primary {
+    display: inline-block;
+    background-color: #FFD700;
+    color: #333;
+    padding: 12px 30px;
+    font-size: 16px;
+    font-weight: 600;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 30px;
+    transition: all 0.3s ease;
+}
+
+.hero .btn-primary:hover {
+    background-color: #e0a800;
+}
+
+/* Features Section */
+.features {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.features h2 {
+    font-size: 36px;
+    margin-bottom: 40px;
+}
+
+.feature-cards {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.feature-cards .card {
+    background-color: #fff;
+    padding: 20px;
+    width: 280px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+}
+
+.feature-cards .card:hover {
+    transform: translateY(-10px);
+}
+
+.feature-cards .card h3 {
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+.feature-cards .card p {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.feature-cards .card .btn-secondary {
+    display: inline-block;
+    background-color: #007BFF;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 16px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+}
+
+.feature-cards .card .btn-secondary:hover {
+    background-color: #0056b3;
+}
+
+/* Footer Styling */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Body and General Styling */
+body {
+    font-family: 'Roboto', sans-serif;
+    color: #333;
+    background-color: #f9f9f9;
+    line-height: 1.6;
+    padding: 0;
+}
+
+/* Navbar Styling (same as homepage) */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #007BFF; /* Soft blue */
+    padding: 15px 30px;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+nav .logo a {
+    font-size: 24px;
+    font-weight: 600;
+    color: #fff;
+    text-decoration: none;
+}
+
+nav .logo span {
+    color: #FFD700; /* Gold accent for style */
+}
+
+nav .nav-links a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 18px;
+    transition: all 0.3s ease;
+}
+
+nav .nav-links a:hover {
+    background-color: #0056b3;
+    border-radius: 5px;
+    padding: 8px 16px;
+}
+
+/* Tools Section */
+.tools-selection {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.tools-selection h1 {
+    font-size: 36px;
+    margin-bottom: 40px;
+}
+
+.tool-cards {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.tool-cards .card {
+    background-color: #fff;
+    padding: 20px;
+    width: 280px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+}
+
+.tool-cards .card:hover {
+    transform: translateY(-10px);
+}
+
+.tool-cards .card h3 {
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+.tool-cards .card p {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.tool-cards .card .btn-primary {
+    display: inline-block;
+    background-color: #007BFF;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 16px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+}
+
+.tool-cards .card .btn-primary:hover {
+    background-color: #0056b3;
+}
+
+/* Footer Styling (same as homepage) */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+
+/* Calculator Section */
+.calculator {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.calculator h1 {
+    font-size: 36px;
+    margin-bottom: 40px;
+}
+
+.calculator-container {
+    display: inline-block;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.display {
+    width: 100%;
+    padding: 20px;
+    font-size: 32px;
+    margin-bottom: 20px;
+    text-align: right;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+    background-color: #f4f4f4;
+}
+
+.calculator-buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+}
+
+.calculator-buttons .btn {
+    font-size: 20px;
+    padding: 20px;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.calculator-buttons .btn:hover {
+    background-color: #0056b3;
+}
+
+.calculator-buttons .btn:active {
+    background-color: #003d7a;
+}
+
+/* Footer Styling (same as homepage) */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Color Picker Section */
+.color-picker {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.color-picker h1 {
+    font-size: 36px;
+    margin-bottom: 40px;
+}
+
+.color-picker-container {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 400px;
+    margin: 0 auto;
+}
+
+.color-input {
+    width: 100%;
+    height: 50px;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+    background-color: #f4f4f4;
+    cursor: pointer;
+}
+
+.color-values {
+    margin-top: 30px;
+    font-size: 18px;
+}
+
+.color-values span {
+    font-weight: bold;
+    color: #007BFF;
+}
+
+/* Footer Styling (same as homepage) */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+
+/* Unit Converter Section */
+.unit-converter {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.unit-converter h1 {
+    font-size: 36px;
+    margin-bottom: 40px;
+}
+
+.unit-converter-container {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 400px;
+    margin: 0 auto;
+}
+
+.input-section, .select-section {
+    margin-bottom: 20px;
+}
+
+.input-section input, .select-section select {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    margin-top: 5px;
+    border-radius: 5px;
+    border: 2px solid #ddd;
+}
+
+.result-section button {
+    padding: 15px 30px;
+    font-size: 18px;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.result-section button:hover {
+    background-color: #0056b3;
+}
+
+.result-section button:active {
+    background-color: #003d7a;
+}
+
+#result {
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+/* Footer Styling (same as homepage) */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+
+
+/* About Page Styles */
+.about {
+    padding: 50px 20px;
+    text-align: center;
+  }
+  
+  .about-container {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 600px;
+    margin: 0 auto;
+  }
+  
+  .about h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  .about p {
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+  }
+  
+  .about ul {
+    text-align: left;
+    list-style-type: square;
+    margin-left: 20px;
+    font-size: 18px;
+  }
+  
+  .about ul li {
+    margin-bottom: 10px;
+  }
+  
+  /* Earn Money Section */
+  .earn-money {
+    background-color: #e0f7fa;
+    padding: 40px 20px;
+    text-align: center;
+    margin: 40px 0;
+  }
+  
+  .earn-money h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .sponsor-link {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #00796b;
+    color: #fff;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-top: 15px;
+    transition: background 0.3s;
+  }
+  
+  .sponsor-link:hover {
+    background-color: #004d40;
+  }
+  
+/* Contact Page Styles */
+#contact {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.contact-container {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 600px;
+    margin: 0 auto;
+}
+
+#contact h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+#contact p {
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+#contact a {
+    color: #00796b;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#contact a:hover {
+    color: #004d40;
+}
+
+.social-links {
+    margin-top: 20px;
+}
+
+.social-links a {
+    display: inline-block;
+    margin-top: 10px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    margin-top: 40px;
+}
+
+
+/* Navbar Styling */
+#navbar {
+    background-color: #2486f0;
+    padding: 15px 20px;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.navbar-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar-logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #fff;
+    text-decoration: none;
+}
+
+.navbar-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.navbar-links li {
+    display: inline-block;
+}
+
+.navbar-links a {
+    font-size: 18px;
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.navbar-links a:hover {
+    color: #ddd;
+}
+
+.navbar-links a.active {
+    border-bottom: 3px solid #fff;
+}
+
+
+
+
+
+/* Navbar Styling */
+#navbar {
+    background-color: #007BFF;
+    padding: 15px 20px;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.navbar-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.navbar-logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #fff;
+    text-decoration: none;
+    display: flex;
+}
+
+.navbar-logo span {
+    color: #FFD700; /* Yellow color for 'Hub' */
+}
+
+.navbar-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.navbar-links li {
+    display: inline-block;
+}
+
+.navbar-links a {
+    font-size: 18px;
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.navbar-links a:hover {
+    color: #ddd;
+}
+
+.navbar-links a.active {
+    border-bottom: 3px solid #fff;
+}
+

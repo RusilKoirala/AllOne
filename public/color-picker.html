@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Color Picker - Useful Tools</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="/AllOne/public/assets/ToolsHub.png" type="image/png">
+</head>
+<body>
+    <nav>
+        <div class="logo">
+            <a href="index.html">Tools<span>Hub</span></a>
+        </div>
+        <div class="nav-links">
+            <a href="index.html">Home</a>
+            <a href="tools.html">Tools</a>
+            <a href="about.html">About</a>
+            <a href="contact.html">Contact</a>
+        </div>
+    </nav><!-- Navbar -->
+    
+
+    <!-- Color Picker Section -->
+    <section class="color-picker">
+        <h1>Color Picker</h1>
+        <div class="color-picker-container">
+            <input type="color" id="colorInput" class="color-input" onchange="updateColor()">
+            <div class="color-values">
+                <p>Hex: <span id="hexValue">#ffffff</span></p>
+                <p>RGB: <span id="rgbValue">rgb(255, 255, 255)</span></p>
+                <p>HSL: <span id="hslValue">hsl(0, 0%, 100%)</span></p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 ToolsHub. All rights reserved.</p>
+    </footer>
+
+    <script src="js/color-picker.js"></script>
+</body>
+</html>
