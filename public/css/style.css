@@ -666,7 +666,6 @@ footer {
     border-bottom: 3px solid #fff;
 }
 
-
 /* Layout for main and banner */
 .page-wrapper {
     display: flex;
@@ -691,11 +690,22 @@ footer {
 .banner-preview {
     width: 160px;
     height: 600px;
-    background-color: yellow; /* Change to black if you want */
+    background-color: yellow; /* Yellow background for visibility */
     color: black;
     font-weight: bold;
     display: flex;
     align-items: center;
     justify-content: center;
-    border: 2px dashed black;
+    border: 4px dotted #FFD700; /* Yellow dotted border to match the color theme */
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add a subtle shadow for depth */
+    padding: 20px;
 }
+
+/* Ad box text styling */
+.banner-preview h2 {
+    font-size: 24px;
+    color: #333;
+    margin: 0;
+}
+
