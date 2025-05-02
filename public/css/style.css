@@ -666,3 +666,36 @@ footer {
     border-bottom: 3px solid #fff;
 }
 
+
+/* Layout for main and banner */
+.page-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 20px;
+}
+
+/* Main content area */
+.main-content {
+    flex: 1;
+    margin-right: 20px;
+}
+
+/* Right banner styling */
+.right-banner {
+    width: 160px;
+    position: sticky;
+    top: 20px;
+}
+
+.banner-preview {
+    width: 160px;
+    height: 600px;
+    background-color: yellow; /* Change to black if you want */
+    color: black;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px dashed black;
+}
